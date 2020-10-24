@@ -69,12 +69,17 @@ for(i in 1:dim(df)[3]){
   #       col = "red",
   #       xlab="", ylab="", zlab="", box = F, axes = F)
   
+  plot3d(frame$X1, frame$X2, frame$X3, type="p", size = 5, col = "red")
   segments3d(frame[joins, ], col = "blue")
+  
   Sys.sleep(0.05)
   
   # Save selected frames to png files.
   #selframes <- c(1,10,15,20,40,50)
   #if(i %in% selframes)rgl.snapshot(paste0("skl_",i,".png"))
+  
+  # Save all frames.
+  #rgl.snapshot(paste0("gif/skl_",i,".png"))
 }
 
 
