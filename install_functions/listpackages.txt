@@ -26,3 +26,5 @@ hash
 pheatmap
 R.matlab
 rgl
+shiny
+shinydashboard
