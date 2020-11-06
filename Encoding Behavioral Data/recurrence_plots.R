@@ -11,7 +11,7 @@ norm2 <- function(x, y){
 # and returns both.
 rp <- function(x, e, f=norm2){
   #x: vector.
-  #e: threshld.
+  #e: threshold.
   #f: norm (distance function).
   N <- length(x)
   
@@ -51,7 +51,7 @@ x <- df$V1
 
 # Plot timeseries.
 #png("rp_series.png", width = 5, height = 4, units = "in", res = 200)
-plot(x, type="l", main="Hand gesture 1", xlab = "time", ylab = "Acceleraton in x")
+plot(x, type="l", main="Hand gesture 1", xlab = "time", ylab = "Acceleration in x")
 #dev.off()
 
 # Compute RP and distance matrix.
