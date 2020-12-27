@@ -28,3 +28,7 @@ R.matlab
 rgl
 shiny
 shinydashboard
+trajr
+anipaths
+solitude
+PRROC
