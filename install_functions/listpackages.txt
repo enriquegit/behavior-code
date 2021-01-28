@@ -2,7 +2,6 @@ caret
 e1071
 ggplot2
 gridExtra
-grid
 dtw
 corrplot
 qtlcharts

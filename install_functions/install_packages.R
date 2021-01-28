@@ -24,5 +24,9 @@ for(p in listPackages){
   }
 }
 
+# Print installed packages.
 print("The following packages were installed: ")
 print(installedPackages)
+
+# Print the packages that were not installed (if any).
+listPackages[which(!listPackages %in% installedPackages)]
